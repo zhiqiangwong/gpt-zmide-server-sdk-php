@@ -1,0 +1,23 @@
+{
+    "name": "zhiqiangwong/gpt-zmide-server-sdk-php",
+    "description": "SDK",
+    "authors": [
+        {
+            "name": "zhiqiangwong",
+            "email": "0703zhiqing@163.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "RmtCenter\\": "src/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "^7.0.15"
+        }
+    }
+}
