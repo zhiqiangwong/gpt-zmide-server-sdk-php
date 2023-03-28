@@ -3,7 +3,7 @@
 ## 安装
 
 ```
-composer require rmt/rmt-center-sdk
+composer require zhiqiangwong/gpt-zmide-server-sdk-php
 ```
 
 ## 使用
