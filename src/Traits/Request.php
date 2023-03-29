@@ -31,7 +31,6 @@ trait Request
         //增加请求头部
         $headers = [
             'Authorization'  => 'Bearer ' . $this->getBearerToken(),
-            'Applicationkey' => $this->config['appKey'],
         ];
 
         if ($this->config['encrypt'] ?? false) {
@@ -113,8 +112,7 @@ trait Request
      */
     private function getBearerToken()
     {
-        //加密 appKey
-        return $this->encrypt($this->config['appKey']);
+        return $this->config['apiKey'];
     }
 
     /**

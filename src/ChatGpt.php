@@ -26,10 +26,10 @@ class ChatGpt
     //是否开启 debug 模式
     public $debug = false;
 
-    public function __construct($appKey, $appSecret, $config = [])
+    public function __construct($apiKey, $appSecret, $config = [])
     {
         $this->config = array_merge($config, [
-            'appKey'    => $appKey,
+            'apiKey'    => $apiKey,
             'appSecret' => $appSecret,
         ]);
 
