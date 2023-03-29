@@ -9,7 +9,7 @@ composer require zhiqiangwong/gpt-zmide-server-sdk-php
 ## 使用
 
 ```
-$chat = new ChatGpt('unwQCUnEvenArvJywZuYPyxkDiqJuRud', '47e2db6a-54f0-45aa-b7e0-a8acd7081987', [
+$chat = new ChatGpt('sk-cttbFUeDumoGQBuYMFFTOsbGXydxvDpkhgzhwrgDzWoCcZcB', 'sxqzNfBlOrMonqnsEqLNkjJUsDmADEfX', [
     'apiHost' => 'http://host.docker.internal:8091', //设置请求 host
     'encrypt' => true, //设置 body 加密传输
 ]);
